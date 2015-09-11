@@ -7,8 +7,8 @@ eureka:
     serviceUrl:
       defaultZone: ${vcap.services.service-registry.credentials.uri:http://127.0.0.1:8761}/eureka/
 
-#fortune:
-#  fallbackFortune: Hug a Spring developer today!
+fortune:
+  fallbackFortune: Hug a Spring developer today!
 
 ---
 spring:
